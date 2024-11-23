@@ -2,8 +2,37 @@ body {
     background-color: rgb(4, 1, 34);
 }
 H1 {
-    text-align: center;
     color: beige;
     font-size: 4vw;
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: slide-in;
+  }
+  
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 400% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+hr {
+    animation-duration: 1s;
+    animation-name: slide-in;
 }
-
+  
+@keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 300% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+}
